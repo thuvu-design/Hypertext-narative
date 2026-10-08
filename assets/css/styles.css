@@ -1,5 +1,38 @@
-/* styles.css */
+*{
+	font-family: "bitcount", system-ui;
+}
+body{
+	background: white;
+	width: 100%;
+	margin: 0 auto;
 
-* {
-	font-family: Arial;
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	border: 10px inset black;
+	max-width: 500px;
+	margin: auto;
+}
+
+.Maze {
+	background-image: url("../img/Maze.png");
+	width: 810px;
+	height: 570px;
+	margin: 64px auto;
+	border: 7px outset black;
+}
+h2{
+	font-size: 2.75em;
+	border: 7px outset black;
+	padding: 10px;
+	max-width: 130px;
+	position:fixed;
+   	right:20px;
+   	bottom:0px;
+
+.Stickman {
+	max-width: 25%;
+	max-height: auto;
 }

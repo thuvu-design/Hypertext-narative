@@ -73,3 +73,22 @@ h1 {
 	top:200px;
 	right: 0px;
 }
+
+.Flower {
+	width:15%;
+	height:auto;
+	position: absolute;
+	margin-top: 0;
+	top: 0;
+	left: 20px;
+}
+
+.Floweright {
+	width:15%;
+	height:auto;
+	position: absolute;
+	margin-top: 0;
+	top: 0;
+	right: 20px;
+
+}

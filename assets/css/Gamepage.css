@@ -1,6 +1,75 @@
 
 
 .Stickman {
+	display: block;
 	max-width: 25%;
 	max-height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+
+}
+
+h1 {
+	font-size: 3em;
+	border: 7px outset black;
+	display: inline-block;
+	margin-right: 200px;
+}
+
+.LEFT {
+	max-width: 130px;
+	padding-left: 14px;
+	text-align: left;
+	margin-left: 250px;
+}
+
+.STRAIGHT {
+	max-width: 250px;
+	padding-left: 15px;
+}
+
+.RIGHT {
+	max-width: 160px;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-right: 250px;
+
+}
+
+.vertical {
+	width: 7px;
+	height: 200px;
+	background-color: black;
+	position: absolute;
+	top:0px;
+	left: 500px;
+}
+
+.verticalright {
+	width: 7px;
+	height: 200px;
+	background-color: black;
+	position: absolute;
+	top:0px;
+	right: 500px;
+}
+
+.horizontal {
+	width: 500px;
+	height: 7px;
+	background-color: black;
+	position: absolute;
+	top:200px;
+	left: 0px;
+}
+
+
+.horizontalright {
+	width: 500px;
+	height: 7px;
+	background-color: black;
+	position: absolute;
+	top:200px;
+	right: 0px;
 }

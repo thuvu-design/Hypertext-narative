@@ -3,7 +3,7 @@ h1 {
 	font-size: 4em;
 	text-align: center;
 	border: 10px inset black;
-	max-width: 500px;
+	max-width: 600px;
 	margin: auto;
 }
 
@@ -27,4 +27,18 @@ h2{
 
 h3 {
 	text-align: center;
+}
+
+h4 {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.EndMessage {
+	display: block;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
